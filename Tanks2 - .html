@@ -1,0 +1,65 @@
+<!DOCKTYPE html>
+<html>
+	<title>
+	</title>
+<head>
+<style>
+.mainCnvas {
+background-color: black;
+border:1px solid gray;
+}
+</style>
+</head>
+	<body onload="Start()">
+	
+<div style="display:none;">
+	<img id="ImgLeftTankId" src="PTL.png"
+    width="300" height="227">
+</div>
+
+<div style="display:none;">
+  <img id="ImgRightTankId" src="PTR.png"
+    width="300" height="227">
+</div>
+
+<div style="display:none;">
+	<img id="ImgTankUp" src="PTU.png"
+    width="300" height="227">
+</div>
+
+<div style="display:none;">
+	<img id="ImgTankDown" src="PTD.png"
+    width="300" height="227">
+</div>
+
+<div style="display:none;">
+	<img id="shotId" src="Wool.png"
+    width="300" height="227">
+</div>
+
+<div style="display:none;">
+	<img id="Tank" src="Tank.png"
+    width="300" height="227">
+</div>
+<div style="display:none;">
+	<img id="BBid" src="BB.png"
+    width="300" height="227">
+</div>		
+	
+<div style="display:none;">
+	<img id="base" src="Base.png"
+    width="300" height="227">
+</div>	
+	<canvas class="mainCnvas" id="canvas" width="520" height="520" > </canvas>
+	<p>
+
+		<BUTTON onclick="MoveU()"> ^^^^^ </button>
+		<P>
+			<BUTTON onclick="MoveL()"> <<<< </button>
+			<BUTTON onclick="MoveR()"> >>>> </button>
+				<P>
+		<BUTTON onclick="MoveD()"> VVVV </button>
+</body>
+<script src="Tanks 2.js"> </script>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCKTYPE html>
+<html>
+	<title>
+	</title>
+<head>
+<style>
+.mainCnvas {
+background-color: black;
+border:4px solid gray;
+}
+</style>
+</head>
+	<body onload="Start()">
+	
+<div style="display:none;">
+	<img id="ImgLeftTankId" src="PlayerTankLeft.png"
+    width="300" height="227">
+</div>
+
+<div style="display:none;">
+  <img id="ImgRightTankId" src="PlayerTankRight.png"
+    width="300" height="227">
+</div>
+
+<div style="display:none;">
+	<img id="ImgTankUp" src="PlayerTankUp.png"
+    width="300" height="227">
+</div>
+
+<div style="display:none;">
+	<img id="ImgTankDown" src="PlayerTankDown.png"
+    width="300" height="227">
+</div>
+
+<div style="display:none;">
+	<img id="shotId" src="Shot.png"
+    width="300" height="227">
+</div>
+
+<div style="display:none;">
+	<img id="Tank" src="Tank.png"
+    width="300" height="227">
+</div>
+<div style="display:none;">
+	<img id="TankDid" src="TankD.png"
+    width="300" height="227">
+</div>		
+	
+	
+	<canvas class="mainCnvas" id="canvas" width="250" height="400" > </canvas>
+	<p>
+
+	
+</body>
+<script src="Tanks.js"> </script>
+
+</html>
